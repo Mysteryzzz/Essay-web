@@ -1,4 +1,6 @@
 final.sql 文件是本系统的数据库文件 
-使用navicat导入mysql本地数据库后 就可以使用本系统
+使用navicat导入mysql本地数据库后 
+进入Essay-web/Essay_Student/WebContent/Essay/admin/
+打开login_1.html就可以使用本系统
 如果这个系统能够对你提供帮助，真的万分荣幸。
 如果出现问题或者疑问 可以联系qq1062852837  
