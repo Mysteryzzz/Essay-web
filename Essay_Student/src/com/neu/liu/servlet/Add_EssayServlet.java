@@ -1,16 +1,13 @@
 package com.neu.liu.servlet;
 
-import java.io.IOException;
-import java.util.List;
-import java.util.Map;
+import com.neu.liu.dao.Essay_InfoDao;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import com.neu.liu.dao.Essay_InfoDao;
+import java.io.IOException;
 
 /**
  * Servlet implementation class Add_EssayServlet
@@ -30,6 +27,7 @@ public class Add_EssayServlet extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
+	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		this.doPost(request, response);
 	}
@@ -37,6 +35,7 @@ public class Add_EssayServlet extends HttpServlet {
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
+	@Override
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		request.setCharacterEncoding("utf-8");
