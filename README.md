@@ -2,7 +2,7 @@
 1. clone本项目到你的电脑上
 2. 将Essay_student项目导入到你的idea
 3. 创建数据库 final
-4. 将sql文件导入到你的mysql数据库中，推荐使用navicat
+4. 将sql文件导入到你的mysql数据库中，推荐使用navicat, 或使用source final.sql 命令
 5. 进入Essay_Student/src下，打开数据库配置文件db.properties
 6. 将其中的user和password改为你电脑中mysql数据库的用户名和密码
 7. 进入idea中 添加Tomcat运行即可
