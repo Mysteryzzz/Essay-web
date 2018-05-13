@@ -1,0 +1,7 @@
+# intellij project
+.idea
+out
+*.class
+
+#SVN folder
+.svn
